@@ -87,7 +87,6 @@ header {
 .nav-btn {
     color: black;    
     background-color: white; 
-    padding: 10px 15px;  
     padding: .5em 1em;  
 }
 
@@ -95,7 +94,7 @@ header {
 /* HERO */
 
 .hero {
-    background-image: url(../img/jumbo.png);
+    background-image: url(img/jumbo.png);
     background-size: cover;
     background-position: center;
     min-height: 650px;
@@ -207,43 +206,89 @@ h1 {
 }
 
 /* FOOTER */
-
+/* Footer Top  */
+.footer-cont {
+    justify-content: space-between;
+}
 .footer-bg {
     background-color: #23272a;
-    min-height: 600px;
     padding-top: 50px;
 }
+.f-title{
+    color: #7289da;
+    font-size: 2rem;
+    text-align: left;
+}
+.f-col1 img{
+    width: 10%;
+}
+
 .f-col1 {
-    width: 30%;
-    min-height: 500px;
-    background-color: #f08080;
+    width: 20%;
+    color: white;
+}
+.socials {
+    padding: 10px;
 }
 .f-col2 {
     width: 70%;
-    min-height: 500px;
-    background-color: #20b2aa;
+}
+h4{
+    color: #7289da;
+}
+
+.col-list li {
+    margin: 20px 0;
+}
+.f-in-col li {
+    list-style-type: none;
 }
 .f-in-col {
-    border: 1px dashed white;
     width: calc(100% / 4);
-}
-hr {
     color: white;
 }
+/* Footer Bottom */
 .footer-bar {
     padding-top: 50px;
 }
-.f-flex-bg {
-    background-color: #7fffd4;
-}
-.low-f-col {
-    border: 1px dashed black;
-    background-color: #ffb6c1;
-}
 .f-flex-cont{
+    border-top: 1px solid #7289da;
     min-height: 50px;
     margin-top: 20px;
+    padding-bottom: 50px;
+    padding-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.registration {
+    background-color: #7289da;
+    padding: 10px 15px;
+}
+/* MORE DETAILS */
+/* Stars */
+.title-bg {
+    width: 55%;
+    margin: 0 auto;
+}
+.h3-bg {
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+}
+/* Wave */
+.wave-sect {
+    width: 100%;
+    min-height: 60px;
+    padding-top: 50px;
+}
+.wave {
+    background-color: white;
+    -webkit-mask: url(../img/wave.svg) repeat 50% 50%;
+    padding-top: 150px;
+}
+.wave-rotated {
+    background-color: #f6f6f6;
+    -webkit-mask: url(../img/wave.svg) repeat 50% 50%;
+    -webkit-filter: hue-rotate(180deg);
+    padding-top: 150px;
 }
