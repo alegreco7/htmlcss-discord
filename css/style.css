@@ -265,30 +265,13 @@ h4{
     background-color: #7289da;
     padding: 10px 15px;
 }
-/* MORE DETAILS */
+
 /* Stars */
 .title-bg {
     width: 55%;
     margin: 0 auto;
 }
 .h3-bg {
-    background-image: url(../img/stars.svg);
+    background-image: url(img/stars.svg);
     background-size: cover;
-}
-/* Wave */
-.wave-sect {
-    width: 100%;
-    min-height: 60px;
-    padding-top: 50px;
-}
-.wave {
-    background-color: white;
-    -webkit-mask: url(../img/wave.svg) repeat 50% 50%;
-    padding-top: 150px;
-}
-.wave-rotated {
-    background-color: #f6f6f6;
-    -webkit-mask: url(../img/wave.svg) repeat 50% 50%;
-    -webkit-filter: hue-rotate(180deg);
-    padding-top: 150px;
 }
