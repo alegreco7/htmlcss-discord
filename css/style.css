@@ -94,7 +94,7 @@ header {
 /* HERO */
 
 .hero {
-    background-image: url(img/jumbo.png);
+    background-image: url(jumbo.png);
     background-size: cover;
     background-position: center;
     min-height: 650px;
@@ -272,6 +272,6 @@ h4{
     margin: 0 auto;
 }
 .h3-bg {
-    background-image: url(img/stars.svg);
+    background-image: url(stars.svg);
     background-size: cover;
 }
