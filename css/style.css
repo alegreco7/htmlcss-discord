@@ -53,30 +53,21 @@ h2 {
     font-size: 1.5rem;
 }
 
-
 /* HEADER */
 header {
-    height: 40px;
-    background-color: #add8e6;
+    padding-top: 10px;
+    min-height: 60px;
+    background-color: #255ee9;
 }
-
 .links {
     flex-grow: 1;
 }
-
 .c2 {
     display: flex;
     justify-content: center;
-    padding: 0 140px;
-
 }
-
-li {
-    margin: 0 .5rem;
-}
-.col {
-    border: 1px dashed black;
-    background-color: #daa520;
+.c2 li {
+    margin: 0 1rem;
 }
 .flex-container {
     padding-top: 5px;
@@ -85,36 +76,66 @@ li {
     min-height: 35px;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
 }
-
 .c1 {
-    padding-right: 90px;
     width: 20%;
 }
-
 .c3{
-    padding-left: 90px;
     width: 20%;
     text-align: right;
 }
+.nav-btn {
+    color: black;    
+    background-color: white; 
+    padding: 10px 15px;  
+    padding: .5em 1em;  
+}
+
 
 /* HERO */
+
 .hero {
-    background-color: #00008b;
-    min-height: 400px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 650px;
+    padding-top: 50px;
 }
 .hero-cont {
     width: 40%;
     margin: 0 auto;
-    padding-top: 50px;
 }
 .hero-sect {
+    padding-top: 6rem;
     min-height: 300px;
     width: 100%;
-    background-color: #ee82ee;
-    border: 1px dashed black;
+    text-align: center;
+    color: white;
 }
+h1 {
+    font-size: 3rem;
+}
+.hero-text {
+    padding-top: 1rem;
+    font-size: 1.5rem;
+}
+.hero-btn {
+    text-align: center;
+    font-size: 1.5rem;
+    justify-content: center;
+    gap: 30px;
+}
+.h-btn1 {
+    color: black;
+    background-color: white;
+    padding: .5em 1em;
+}
+
+.h-btn2 {
+    background-color: #23272a;
+    padding: .5em 1em;
+}
+
 
 /* CONTENT */
 .white-sect {
